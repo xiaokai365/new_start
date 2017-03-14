@@ -14,6 +14,5 @@
     <orderEntry type="module" module-name="babasports-interface" />
     <orderEntry type="module" module-name="babasports-pojo" />
     <orderEntry type="module" module-name="babasports-common" />
-    <orderEntry type="module" module-name="babasports-dao" />
   </component>
 </module>
