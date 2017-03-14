@@ -12,5 +12,12 @@
     <artifactId>babasports-pojo</artifactId>
     <packaging>jar</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.colin.sports</groupId>
+            <artifactId>babasports-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
 
+    </dependencies>
 </project>
