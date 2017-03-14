@@ -11,5 +11,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="babasports-dao" />
+    <orderEntry type="module" module-name="babasports-pojo" />
+    <orderEntry type="module" module-name="babasports-common" />
   </component>
 </module>
