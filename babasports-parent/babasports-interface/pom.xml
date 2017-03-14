@@ -10,7 +10,6 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>babasports-interface</artifactId>
-    <packaging>jar</packaging>
 
     <dependencies>
         <dependency>

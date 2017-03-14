@@ -13,6 +13,13 @@
         <module>babasports-pojo</module>
         <module>babasports-interface</module>
         <module>babasports-dao</module>
+        <module>babasports-web-console</module>
+        <module>babasports-web-login</module>
+        <module>babasports-web-portal</module>
+        <module>babasports-serivce-buyer</module>
+        <module>babasports-serivce-cms</module>
+        <module>babasports-serivce-solr</module>
+        <module>babasports-serivce-product</module>
     </modules>
 
 
