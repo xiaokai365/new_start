@@ -2,6 +2,7 @@ package com.colin.sports.core;
 
 import com.colin.sports.core.dao.TempDao;
 import com.colin.sports.core.pojo.Temp;
+import com.colin.sports.core.service.TempService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,14 +19,14 @@ import java.util.Date;
 public class TestTemp {
 
     @Autowired
-    private TempDao tempDao;
+    private TempService tempService;
 
     @Test
     public void testInstert() {
         Temp temp = new Temp();
-        temp.setId(1);
+        temp.setId(2);
         temp.setName("是否");
         temp.setBirthday(new Date());
-        tempDao.insert(temp);
+        tempService.insert(temp);
     }
 }
