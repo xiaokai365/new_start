@@ -27,7 +27,7 @@
        </bean>
 
         <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-                <property name="basePackage" value="com.colin"/>
+                <property name="basePackage" value="com.colin.sports.core.dao"/>
         </bean>
 
 </beans>

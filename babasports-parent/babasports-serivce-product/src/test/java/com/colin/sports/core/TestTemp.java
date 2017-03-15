@@ -23,6 +23,7 @@ public class TestTemp {
     @Test
     public void testInstert() {
         Temp temp = new Temp();
+        temp.setId(1);
         temp.setName("是否");
         temp.setBirthday(new Date());
         tempDao.insert(temp);

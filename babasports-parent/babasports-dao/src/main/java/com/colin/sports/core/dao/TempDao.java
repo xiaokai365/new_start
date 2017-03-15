@@ -7,5 +7,5 @@ import com.colin.sports.core.pojo.Temp;
  */
 public interface TempDao {
 
-    void insert(Temp temp);
+    public void insert(Temp temp);
 }
