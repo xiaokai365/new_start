@@ -20,5 +20,6 @@ public class TempServiceImpl implements TempService{
     @Override
     public void insert(Temp temp) {
         tempDao.insert(temp);
+        //throw  new RuntimeException("111111");
     }
 }
