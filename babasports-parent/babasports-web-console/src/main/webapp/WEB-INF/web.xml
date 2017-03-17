@@ -18,5 +18,12 @@
 		<servlet-name>console</servlet-name>
 		<url-pattern>*.do</url-pattern>
 	</servlet-mapping>
+
+	<!--
+	/* 拦截所有请求，包括jsp,css,js,jpg 强烈建议不使用
+	*.do  只拦截.do请求 后台系统使用
+	/ 拦截所有请求 css js,png 不包括jsp
+	-->
+
 	
 </web-app>

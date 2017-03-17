@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * Created by colinx on 2017/3/17.
  */
 @Controller
-public class TestAction {
+public class PotalAction {
 
     @RequestMapping("/test.do")
-    public String index(){
+    public String test(){
 
         return "test";
     }
