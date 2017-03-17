@@ -24,7 +24,6 @@ public class TestTemp {
     @Test
     public void testInstert() {
         Temp temp = new Temp();
-        temp.setId(3);
         temp.setName("是否");
         temp.setBirthday(new Date());
         tempService.insert(temp);

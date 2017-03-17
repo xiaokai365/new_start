@@ -4,7 +4,7 @@
 <mapper namespace="com.colin.sports.core.dao.TempDao">
     <insert id="insert" parameterType="com.colin.sports.core.pojo.Temp">
         insert into
-        temp (id,name,birthday)
-        VALUES (#{id},#{name},#{birthday})
+        temp (name,birthday)
+        VALUES (#{name},#{birthday})
     </insert>
 </mapper>
